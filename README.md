@@ -1,9 +1,9 @@
 ## Overview
 
-Typemax (TMX) is a configuration for single-hand chording keyboards that have a number of keys that is less than the 
+Typemax (TMX) is a configuration for single-hand chording keyboards that have a number of keys that is less than the
 number of letters in the English alphabet. TMX attempts to maximize the words-per-minute (WPM) typing speed when typing
-with only single character chords (i.e. without using multi-character chords (MCC)). Since there are less keys than 
-letters, many letters are assigned to single key chords (1KC) but other letters must be assigned to two key chords 
+with only single character chords (i.e. without using multi-character chords (MCC)). Since there are less keys than
+letters, many letters are assigned to single key chords (1KC) but other letters must be assigned to two key chords
 (2KC). Generally, more frequently used (MFU) letters are assigned to 1KC and less frequently used (LFU) letters are
 assigned to 2KC. However, this rule is weighed against a full set of optimizations as outlined below.
 
@@ -179,5 +179,35 @@ stutter optimized to take advantage of its common bigrams CH, CT, CR).
 .-------------------.
 ```
 
-A secondary consideration is that each finger of the hand is ranked in order of its speed: index, middle, ring, pinky.
-MFU letters. The first 3 letters
+### 2KC Consonants
+
+|-------------------|-------------------.-------------------.
+| •••••             |       •••••       |             ••••• |
+| ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | v▒▒▒▒ ▒▒▒▒▒ c▒▒▒▒ | ▒▒▒▒▒ z▒▒▒▒ ▒▒▒▒▒ |
+| ▒▒▒▒▒ x▒▒▒▒ ▒▒▒▒▒ | y▒▒▒▒ p▒▒▒▒ g▒▒▒▒ | ▒▒▒▒▒ b▒▒▒▒ w▒▒▒▒ |
+| ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | j▒▒▒▒ ▒▒▒▒▒ q▒▒▒▒ | ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ |
+|-------------------|-------------------|-------------------|
+|                   |                   |                   |
+| •••••             |       •••••       |             ••••• |
+| ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | ▒▒▒▒▒ CAPS▒ ▒▒▒▒▒ | ▒▒▒▒▒ k▒▒▒▒ ▒▒▒▒▒ |
+| ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | ENTER ▒▒▒▒▒ ▒▒▒▒▒ | ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ |
+|-------------------|-------------------|-------------------|
+••••• = hold key
+▒▒▒▒▒ = unassigned
+
+Remaining consonants are assigned to 2KC in frequency order: PG(WY)BVKXJQZ with the exception of C which was
+intentionally to allow for stutter optimization. The 2KC assignments are the hardest to optimize and problem have the
+most room improvement.
+
+* C is assigned to MLOO for stutter in common bigrams CH and CT
+* P is assigned to MOMO for stride in PL, stutter in PE and PA and weak travel in MP,OP,PO and PR
+* G is assigned to MOLO for stride in NG and GH, stutter in GO and weak travel in GE and GR (note: IG is low)
+* W is assigned to LOLO for stride in WH and WA, stutter in OW and weak travel in WE (note: WI is slow)
+* Y is assigned to MORO for stride in LY and AY, stutter in TY and weak travel in RY, EY and YE (note: YO is slow)
+* B is assigned to LOMO for stride in AB and BL and stutter in BE
+* V is assigned to MROO for stride in vowel bigrams and weak travel in NV
+* K is assigned to OLMO for stride in RK,KS stutter in CK,KE and weak travel in OK,KI,KN
+* X is assigned to LOMO for stutter in EX and weak travel in IX
+* J is assigned to MOOR for stride in NJ,JE,JO and stutter in JA (note: BJ and JU are slow)
+* Q is assigned to MOOL for stutter in QU
+* Z is assigned to LMOO for stride in vowel bigrams (note: ZY is slow)
