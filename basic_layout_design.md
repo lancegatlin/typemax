@@ -89,7 +89,7 @@ there are six ring and pink finger 1KCs and only 5 vowels, every vowel is assign
 ### Center-line keys
 Since the default hand position rests over center-line keys (MMMM), these are the quickest to press. Also, letters that
 more frequently end words (ESNT and spacebar) are center-lined to reset the hand to default hand position whenever
-possible. Note: since is LFU D than ESNT it is not center-lined.
+possible. Note: D frequently ends words but since it is overall less LFU than ESNT it is not center-lined.
 * E is MFU vowel and is assigned to the ring finger OOMO
 * T is MFU consonant and is assigned to index finger MOOO
 * N is 2nd MFU consonant and is assigned to middle finger OMOO
