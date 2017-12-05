@@ -27,16 +27,19 @@ Note: Twiddler configuration requires firmware 15+
 ## Layout design
 
 ```
+   C1    C2    C3
 .-------------------.
-| f▒▒▒* s▒▒▒* d▒▒▒* |
+| f▒▒▒* s▒▒▒* d▒▒▒* | mouse-buttons
 .-------------------.
-| m▒▒▒▒ t▒▒▒▒ r▒▒▒▒ |
-| l▒▒▒▒ n▒▒▒▒ h▒▒▒▒ |
-| i▒▒▒▒ e▒▒▒▒ o▒▒▒▒ |
-| a▒▒▒▒ SPACE u▒▒▒▒ |
+| m▒▒▒▒ t▒▒▒▒ r▒▒▒▒ | index finger
+| l▒▒▒▒ n▒▒▒▒ h▒▒▒▒ | middle finger
+| i▒▒▒▒ e▒▒▒▒ o▒▒▒▒ | ring finger
+| a▒▒▒▒ SPACE u▒▒▒▒ | pinky finger
 .-------------------.
+C1 = Inside (R)
+C2 = Middle (M)
+C3 = Outside (L)
 Orientation = face-away
-▒▒▒▒* = mouse button
 ```
 
 ### Stride
@@ -149,17 +152,21 @@ This hole is assigned to spacebar.
 | CONST t▒▒▒▒ CONST |
 | CONST n▒▒▒▒ CONST |
 | i▒▒▒▒ e▒▒▒▒ o▒▒▒▒ |
-| a▒▒▒▒ ▒▒▒▒▒ u▒▒▒▒ |
+| a▒▒▒▒ SPACE u▒▒▒▒ |
 .-------------------.
 ```
 
 ### 1KC Consonants
-TMX assigns consonants the renamining 1KC in order of their frequency RHLDUMF (with the exception of C which is
+TMX assigns consonants the renamining 1KC in order of their frequency RHLDMF (with the exception of C which is
 stutter optimized to take advantage of its common bigrams CH, CT, CR).
 * R and H are assigned to outside keys since outside is slightly faster than inside keys
 * To allow stride in MFU bigram TH, H is assigned to middle finger outside OLOO
 * This leaves LOOO for R
-* 
+* Since bigrams NL/LN and LH/HL are rare or never occur (while LT is common), L is assigned to middle finger inside OROO
+* To allow stride in MFU bigram ND, D must be either index finger or mouse button
+* M is to index finger inside ROOO (todo: why?)
+* D is assigned to inside mouse button (todo: why?)
+* F is assigned to remaining outside mouse button (todo: why?)
 
 ```
 .-------------------.
@@ -168,7 +175,7 @@ stutter optimized to take advantage of its common bigrams CH, CT, CR).
 | m▒▒▒▒ t▒▒▒▒ r▒▒▒▒ |
 | l▒▒▒▒ n▒▒▒▒ h▒▒▒▒ |
 | i▒▒▒▒ e▒▒▒▒ o▒▒▒▒ |
-| a▒▒▒▒ ▒▒▒▒▒ u▒▒▒▒ |
+| a▒▒▒▒ SPACE u▒▒▒▒ |
 .-------------------.
 ```
 
