@@ -1,0 +1,310 @@
+/-----------------------------------------------------------\
+|  Typemax 2.2.0 (Twiddler firmware 15)                       | 
+|-----------------------------------------------------------.
+| Orientation = face-away                                   |
+| ••••• = hold key                                          |
+| ▒▒▒▒▒ = unassigned                                        |
+| ▒▒▒▒* = mouse button                                      | 
+.-------------------.
+| f▒▒▒* s▒▒▒* d▒▒▒* |
+.-------------------.
+| m▒▒▒▒ t▒▒▒▒ r▒▒▒▒ |
+| l▒▒▒▒ n▒▒▒▒ h▒▒▒▒ |
+| i▒▒▒▒ e▒▒▒▒ o▒▒▒▒ |
+| a▒▒▒▒ SPACE u▒▒▒▒ |
+|-------------------|-------------------.-------------------.
+| •••••             |       •••••       |             ••••• |
+| BKSPC @▒▒▒▒ ▒▒▒▒▒ | v▒▒▒▒ ing▒▒ c▒▒▒▒ | COPY▒ z▒▒▒▒ for▒▒ |
+| UNDO▒ x▒▒▒▒ REDO▒ | y▒▒▒▒ p▒▒▒▒ g▒▒▒▒ | CUT▒▒ b▒▒▒▒ w▒▒▒▒ |
+| MCC08 :▒▒▒▒ ESC▒▒ | j▒▒▒▒ MCC01 q▒▒▒▒ | PASTE ,▒▒▒▒ -▒▒▒▒ |
+|-------------------|-------------------|-------------------|
+|                   |                   |                   |
+| •••••             |       •••••       |             ••••• |
+| MCC09 MCC06 ▒▒▒▒▒ | ion▒▒ CAPS▒ "▒▒▒▒ | ▒▒▒▒▒ k▒▒▒▒ and▒▒ |
+| MCC10 MCC11 ▒▒▒▒▒ | ENTER NUMLK ;▒▒▒▒ | ▒▒▒▒▒ MCC02 '▒▒▒▒ |
+|-------------------|-------------------|-------------------|
+|                   |                   |                   |
+|                   |                   |                   |       
+| •••••             |       •••••       |             ••••• |
+| MCC05 ▒▒▒▒▒ ▒▒▒▒▒ | MCC04 TAB▒▒ ▒▒▒▒▒ | ▒▒▒▒▒ MCC03 you▒▒ |
+|-------------------|-------------------|-------------------|
+|                   |                   |                   |
+| •••••             |       •••••       |             ••••• |
+| •••••             |       •••••       |             ••••• |
+| ail▒▒ ▒▒▒▒▒ ▒▒▒▒  | ean▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | ▒▒▒▒▒ ▒▒▒▒▒ ough▒ |
+|-------------------|-------------------|-------------------|
+| •••••             |       •••••       |             ••••• |
+| •••••             |       •••••       |             ••••• |
+| ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | ing▒▒ ent▒▒ not▒▒ | ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ |
+| ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | ant▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ |
+|-------------------|-------------------|-------------------|
+| •••••             |       •••••       |             ••••• |
+|                   |                   |                   |
+| •••••             |       •••••       |             ••••• |
+| !▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | ate▒▒ .▒▒▒▒ ▒▒▒▒▒ | ▒▒▒▒▒ ?▒▒▒▒ ould▒ |
+|-------------------|-------------------|-------------------|   
+| •••••             | •••••             |       •••••       |
+|       •••••       |             ••••• | •••••             |
+| ▒▒▒▒▒ ment▒ ▒▒▒▒▒ | ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | ive▒▒ ▒▒▒▒▒ ▒▒▒▒▒ |
+| man▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ |
+|-------------------|-------------------|-------------------|
+|       •••••       |             ••••• |             ••••• |
+|             ••••• | •••••             |       •••••       |
+| ight▒ the▒▒ qu▒▒▒ | ▒▒▒▒▒ ble▒▒ ▒▒▒▒▒ | ind▒▒ end▒▒ ▒▒▒▒▒ |
+| ally▒ ▒▒▒▒▒ ▒▒▒▒▒ | ▒▒▒▒▒ ▒▒▒▒▒ ful▒▒ | ▒▒▒▒▒ ▒▒▒▒▒ urn▒▒ |
+|-------------------|-------------------|-------------------|
+|                   |                   |                   |
+| •••••             | •••••             |       •••••       |
+|       •••••       |             ••••• | •••••             |
+| ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | ain▒▒ ▒▒▒▒▒ ▒▒▒▒▒ |
+|-------------------|-------------------|-------------------|
+|                   |                   |                   |
+|       •••••       |             ••••• |             ••••• |
+|             ••••• | •••••             |       •••••       |
+| ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ |
+|-------------------|-------------------|-------------------|
+| •••••             | •••••             |       •••••       |
+|                   |                   |                   |
+|       •••••       |             ••••• | •••••             |
+| ame▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | ▒▒▒▒▒ ▒▒▒▒▒ ould▒ | ait▒▒ ▒▒▒▒▒ ▒▒▒▒▒ |
+|-------------------|-------------------|-------------------|
+|       •••••       |             ••••• |             ••••• |
+|                   |                   |                   |
+|             ••••• | •••••             |       •••••       |
+| aught ▒▒▒▒▒ ought | air▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | are▒▒ ▒▒▒▒▒ ure▒▒ |
+|-------------------.-------------------.-------------------|
+|                       NUMLOCK                             |
+.-------------------.-------------------.-------------------.
+| .▒▒▒▒ 0▒▒▒▒ ,▒▒▒▒ | 
+| 9▒▒▒▒ 8▒▒▒▒ 7▒▒▒▒ | 
+| 6▒▒▒▒ 5▒▒▒▒ 4▒▒▒▒ | 
+| 3▒▒▒▒ 2▒▒▒▒ 1▒▒▒▒ | 
+|-------------------|-------------------.-------------------.
+| •••••             |       •••••       |             ••••• |
+| ▒▒▒▒▒ ▒▒▒▒▒ UNDO▒ | (▒▒▒▒ *▒▒▒▒ &▒▒▒▒ | COPY▒ ▒▒▒▒▒ +▒▒▒▒ |
+| ▒▒▒▒▒ ▒▒▒▒▒ REDO▒ | ^▒▒▒▒ %▒▒▒▒ $▒▒▒▒ | CUT▒▒ ▒▒▒▒▒ /▒▒▒▒ |
+| ▒▒▒▒▒ ▒▒▒▒▒ ESC▒▒ | #▒▒▒▒ @▒▒▒▒ !▒▒▒▒ | PASTE ▒▒▒▒▒ -▒▒▒▒ |
+|-------------------|-------------------|-------------------|
+|                   |                   |                   |
+| •••••             |       •••••       |             ••••• |
+| <▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | ▒▒▒▒▒ )▒▒▒▒ ▒▒▒▒▒ | ▒▒▒▒▒ ▒▒▒▒▒ >▒▒▒▒ |
+| ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | ▒▒▒▒▒ NUMLK ▒▒▒▒▒ | ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ |
+|-------------------.-------------------.-------------------|
+|                          CTRL (CMD)                       |
+.-------------------.-------------------.-------------------.
+| LNBGN UP▒▒▒ PGUP▒ | 
+| LEFT▒ DOCTP RIGHT | match numlock
+| LNEND DOWN▒ PGDN▒ |
+| PRVWD DOCBT NXTWD |
+|-------------------|-------------------.-------------------.
+| •••••             |       •••••       |             ••••• |
+| PRVTB CLSTB UNDO▒ | NEW▒▒ FIND▒ ▒▒▒▒▒ | COPY▒ MRUTB NXTTB |
+| ZMOUT CLSWD REDO▒ | OPEN▒ SLALL RPLCE | CUT▒▒ NEWTB MAXMZ |
+| ZMIN▒ QUIT▒ ESC▒▒ | SAVE▒ CMTOT ▒▒▒▒▒ | PASTE ▒▒▒▒▒ MINMZ |
+|-------------------|-------------------|-------------------|
+|                   |                   |                   |
+| •••••             |       •••••       |             ••••• |
+| PRVDT PREF▒ ▒▒▒▒▒ | CTRLC SPTLT ▒▒▒▒▒ | ▒▒▒▒▒ ▒▒▒▒▒ NXTDT |
+| ▒▒▒▒▒ POWER FRCQT | MSNCL NXTWD LOCK▒ | ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ |
+|-------------------.-------------------.-------------------|
+|                   |                   |                   |
+|                   |                   |                   |       
+| •••••             |       •••••       |             ••••• |
+| VOLDN ▒▒▒▒▒ ▒▒▒▒▒ | ▒▒▒▒▒ APSWT ▒▒▒▒▒ | ▒▒▒▒▒ MUTE▒ VOLUP |
+|-------------------|-------------------|-------------------|
+
+parenthesis should be sentence priority
+/ should be same priority as @
+
+Optimzed MCCs
+qu
+ing
+and
+for
+you
+
+Natural MCC
+1. first letter must be in chord
+2. as many of other letters in chord as reasonable
+3. preference should be given to letters first then last, second then second to last, etc
+4. if two letters are on the same row then skip the second
+5. if a letter is mouse button d,s or f then the corresponding top row button should be used instead (d => m, s => t, f => r)
+
+Natural MCCs
+the
+ent
+ment
+ion
+tion
+not
+ould
+ight
+ought
+aught
+ough
+man
+end
+ain
+ail
+air
+ait
+ate
+ant
+ame
+are
+ues
+ind
+ally
+urn
+ure
+ive
+
+und
+eal
+ound
+
+MCC todo:
+dge
+ably
+exp
+ble
+able
+ful
+that
+with
+this
+here
+from
+which
+have
+ship
+less
+ify
+ness
+ity
+ious
+ible?
+ance?
+ence?
+
+Freq order letters: ETA(OI)N(SR)H(LD)C*U(MF) PG(WY)BVKXJQZ
+Open single key presses: 11 ETA OIN SRH L C
+Letters ending a word: ESDNTYRFOLG(AH)M(WK)IPUB [CX*ZUVJ] 
+Middle row single-key presses: 3 (4 with SPC)
+Middle row two-key presses: 3s+2ds+1
+Freq order bigrams: TH HE IN (ER AN) (RE ON) (AT EN) (ND+ TI ES) OR (TE OF+ ED+) (IS* IT) (AL+ AR ST TO NT) (NG SE HA) (AS OU) (IO LE VE) (CO+ ME+) (DE+* HI) (RI RO) (IC+* NE EA*? RA) CE+ LI CH+ LL BE+ MA SI* OM+ UR+ others (OA? AO? EA? OE? CR)
+Easy side-by-side two key presses: 6
+Numbers 9876543210
+Punctuation: , ' - . ? ! ; :
+Math: = < > * + - / 
+Coding: _ ( ) { } [ ] \ | ` ~
+Misc: @ ~ # $ % ^ &
+Control: ENTR LGUI CTRL ALT ESC CAPS HOME END BKSP UP DOWN RIGT LEFT PGUP PGDN
+
+Most common full word/word endings > 2 single key presses:
+the (typeable)
+and
+ing
+t(ion) 11314/15230
+m(ent) 3226/11458
+for
+ould
+(i)ght 1473/1818 (typeable)
+you
+
+that
+with
+this
+here
+from
+which
+have
+
+contractions
+---
+'d
+'ll
+'s
+'ve
+'t
+'re
+
+strapwords
+fail
+fundamentally
+
+A 
+CA,EA,HA,LA,MA,NA,RA,TA,WA
+AN,AT,AR,AL,AC,AB,AD
+B
+AB
+BE,BL
+C
+IC,EC,NC,AC
+CO,CA,CE,CH,CT,CI
+G
+NG,IG
+GE,GH,GR
+J
+BJ,NJ
+JE,JO,JU
+K
+CK,RK,OK,NK
+KE,KI,KS,KN
+P
+MP,OP
+PE,PL,PO,PR,PA
+V
+IV,EV,AV,OV,NV
+VE,VI,VA,VO
+
+W
+OW
+WH,WI,WA,WE
+
+X
+EX
+Y
+LY,RY,TY,AY,EY
+YO,YE
+Z
+IZ
+ZE,ZA,ZI,ZO,ZU,ZY
+    
+    
+prioritization
+---
+[1] Word separator: space
+[26] Letters: ETA(OI)N(SR)H (LD)CU(MF)PG(WY)BVKXJQZ
+[5] Letter control: capslock enter backspace tab numlock
+[5] Optimized MCC
+[27] Natural MCC
+[4] Inter-sentence punctuation: ' , - " ( )
+[15] Multi-character chords (MCC)
+[2] Less common sentence punctuation: : ;
+[3] Sentence terminators: . ? ! 
+[1] Email: @
+[3] Basic text control: copy paste cut undo redo 
+[1] Control: ESC
+
+NUMLOCK
+[10] Numbers: 0987654321
+[10] Math: = * + / < > %
+[10] Coding: _ { } [ ] # \ | ` ~
+[3] Misc: $ ^ &
+
+CTRL
+[6] Sentence navigation: right left prev_word next_word home end
+[6] Document navigation: up down begin_document end_document pageup pagedown
+[3] Text control: select_all find replace select_line_end select_line_begin select_page_up select_page_down select_doc_top select_doc_bottm
+[5] Tab control: new_tab next_tab prev_tab mru_tab close_tab
+[6] Mac app: new open save close preferences maximize minimize force_quit close_window quit zoom_in zoom_out
+[5] Mac control: app_switch mission_control spotlight_search next_desktop prev_desktop next_document
+[1] Misc: control-c
+todo:
+next/prev desktop
+power
+[3] Volume control: up down mute_toggle
+[7] Mac apps: finder terminal chrome intellij brackets outlook slack
+[2] Browser control: back forward address_bar history
+Mac screenshot: whole_screenshot pick_screenshot
