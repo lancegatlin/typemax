@@ -12,7 +12,7 @@ Note: See http://norvig.com/mayzner.html for letter & bigram frequencies
 | Pros                   | Cons                    |
 | ---------------------- | -----------------------:|
 | High WPM               | Disables mouse          |
-| MCC not required       | Must train "stutter"    |
+| Often faster than MCC  | Must train "stutter"    |
 | Natural type-ability   | Steeper training curve  |
 | Intuitive to learn     | Requires "spacer"       |
 
