@@ -36,8 +36,8 @@ Example bigrams with stride:
 * HE: OLOO(h) to OOLO(e)
 
 Example bigrams without stride:
-* MOOO to ROOO (index finger used in both chords)
-* MROO to ORMO (middle finger used in both chords)
+* TR: MOOO(t) to ROOO(r) (index finger used in both chords)
+* CK: MLOO(c) to OLMO(k) (middle finger used in both chords)
 
 ### Natural NGrams
 Any string of characters (ngram) whose overlapping bigrams all contain stride is referred to as a "natural" ngram.
