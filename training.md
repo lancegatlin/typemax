@@ -7,7 +7,7 @@
 * Don't just use Twiddler Tutor. Don't trust its reported WPM. It's overly generous compared to real world results.
 * Enable all letters in Tutor settings immediately. Don't let Tutor control when letters get introduced.
 * Don't train infrequent MCCs with Tutor. It will cause you to get stuck on a letter repeating it endlessly.
-
+* In Tutor settings, increase lesson length to ensure more 5 letter words show up. This also helps combat over generous WPM reporting by creating more "average" results each time.
 # Results after 40 hours of training
 ![training stats](https://github.com/lancegatlin/typemax/blob/master/training/40hrs/Screen%20Shot%202017-12-04%20at%208.30.46%20PM.png?raw=true)
 ![wpm](https://github.com/lancegatlin/typemax/blob/master/training/40hrs/Screen%20Shot%202017-12-04%20at%208.30.59%20PM.png?raw=true)
