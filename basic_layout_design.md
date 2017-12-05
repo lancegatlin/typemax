@@ -123,9 +123,9 @@ without incurring stride penalties. This hole is assigned to spacebar.
 ```
 
 ### Vowel section layout
-* Since U is the LFU vowel it is assigned the further stretch pinky finger key OOOL(u)
-* A is assigned to pinky finger key OOOR(a) since bigrams AU/UA are the LFU U*/*U bigrams
-* O is assigned to ring finger key OOLO(o) to give stride to common bigram OU
+* Since U is the LFU vowel, it is assigned to the outside pinky finger key OOOL(u)
+* A is assigned to inside pinky finger key OOOR(a) since bigrams AU/UA are the LFU U bigrams
+* O is assigned to outside ring finger key OOLO(o) to give stride to common bigram OU
 * This leaves I assigned to ring finger key OORO(i) which coincidentally gives it stride in common bigrams AI/IA and EA
 
 ```
