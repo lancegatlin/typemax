@@ -76,6 +76,7 @@
 |             ••••• | •••••             |       •••••       |
 | ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ |
 \-------------------.-------------------.-------------------/
+Note: Twiddler firmware 15 thumb shift does not captialize letters typed by mouse buttons
 Chord Count = 28(+3)
 23 letters
 3 MB letters
