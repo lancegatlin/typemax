@@ -108,8 +108,8 @@ possible. Note: D frequently ends words but since it is overall less LFU than ES
 
 ### Spacebar
 The most frequently pressed key is not a vowel or consonant but spacebar. Ideally, spacebar would be placed center-lined
-for the index finger but maximizing stride for vowels leaves a natural hole that can't be filled with any other letter.
-This hole is assigned to spacebar.
+for the index finger but maximizing stride for vowels leaves a natural hole that can't be filled with any other letter
+without incurring stride penalties. This hole is assigned to spacebar.
 
 ```
 .-------------------.
