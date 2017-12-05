@@ -1,11 +1,11 @@
 ## Overview
 
-Typemax (TMX) attempts to maximize the "type-ability" of hand-held chording keyboards that have a number of keys that
-are less than the number of letters in the English alphabet. Type-ability is the words-per-minute typing speed achieved
-when using only single character chords (i.e. without using multi-character chords (MCC)). Since there are less keys
-than letters, some letters are assigned to single key chords (1KC) and other letters must be assigned to two key chords
-(2KC). Generally, more frequently used (FRU) letters are assigned to 1KC and less frequently used (LRU)
-letters are assigned to 2KC. However, this rule is weighed against a full set of optimizations as outlined below.
+Typemax (TMX) is a configuration for hand-held chording keyboards that have a number of keys that less than the number 
+of letters in the English alphabet. TMX attempts to maximize the words-per-minute typing speed when typing with only 
+single character chords (i.e. without using multi-character chords (MCC)). Since there are less keys than letters, some 
+letters are assigned to single key chords (1KC) and other letters must be assigned to two key chords (2KC). Generally, 
+more frequently used (FRU) letters are assigned to 1KC and less frequently used (LRU) letters are assigned to 2KC. 
+However, this rule is weighed against a full set of optimizations as outlined below.
 
 Note: See http://norvig.com/mayzner.html for letter & bigram frequencies
 
