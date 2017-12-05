@@ -17,9 +17,9 @@ Note: See http://norvig.com/mayzner.html for letter & bigram frequencies
 | Intuitive to learn     | Requires "spacer"       |
 
 ## Twiddler: The "Spacer"
-To make typing the inside row and furthest pinky key finger (OOOL) effortless, a "spacer" is required. The spacer is a 
-solid block that widens the gap between the inside of the index finger knuckle and the side of the Twiddler. Expanding 
-the gap between the index finger knuckle and the Twiddler realigns the fingers in such a way to allow strain-free 
+To make typing the inside row and furthest pinky key finger (OOOL) effortless, a "spacer" is required. The spacer is a
+solid block that widens the gap between the inside of the index finger knuckle and the side of the Twiddler. Expanding
+the gap between the index finger knuckle and the Twiddler realigns the fingers in such a way to allow strain-free
 typing of inside row and furthest pinky finger key. The size of the spacer will vary according to the user.
 
 Note: Twiddler configuration requires firmware 15+
@@ -29,8 +29,8 @@ Note: Twiddler configuration requires firmware 15+
 ### Stride
 A bigram (e.g. TE, HA, IX) has "stride" if the keys pressed one after the other occur on different fingers. Stride
 allows finger(s) that just pressed a key to recover while the other finger(s) can begin travelling to the next
-key-press(es) while the first key press is still finishing. More stride means faster typing. TMX main goal is enable 
-stride for as many MFU bigrams as possible.
+key-press(es) while the first key press is still finishing. More stride means faster typing. The main goal of TMX is to
+allow for stride in as many MFU bigrams as possible.
 
 Example bigrams with stride:
 * TH: MOOO(t) to OLOO(h)
@@ -46,8 +46,9 @@ Any string of characters (ngram) whose overlapping bigrams all contain stride is
 Example natural ngrams:
 * the: MOOO(t) to OLOO(h) to OOMO(e)
 * ent: OOMO(e) to OMOO(n) to MOOO(t)
+* ing: OORO(i) to OMOO(n) to MOLO(g)
 
-When stride is maximized for MFU letters, natural ngrams happen more frequently without further design changes.
+When stride is maximized for MFU letters, natural MFU ngrams are maximized without any extra design optimizations.
 
 ### Stutter
 A 1KC+2KC or 2KC+2KC bigram may share a common key between chords. This common key will cause the same finger to press
