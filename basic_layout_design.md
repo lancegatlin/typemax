@@ -126,7 +126,7 @@ without incurring stride penalties. This hole is assigned to spacebar.
 * Since U is the LFU vowel, it is assigned to the outside pinky finger key OOOL(u)
 * A is assigned to inside pinky finger key OOOR(a) since bigrams AU/UA are the LFU U bigrams
 * O is assigned to outside ring finger key OOLO(o) to give stride to common bigram OU
-* This leaves I assigned to ring finger key OORO(i) which coincidentally gives it stride in common bigrams AI/IA and EA
+* This leaves I assigned to inside ring finger key OORO(i) which coincidentally gives it stride in common bigrams AI/IA and EA
 
 ```
 .-------------------.
@@ -143,13 +143,13 @@ without incurring stride penalties. This hole is assigned to spacebar.
 TMX assigns consonants the renamining 1KC in order of their frequency RHLDMF (with the exception of C which is
 stutter optimized to take advantage of its common bigrams CH and CT).
 * R and H are assigned to outside keys since outside is slightly faster than inside keys
-* To allow stride in MFU bigram TH, H is assigned to middle finger outside OLOO
-* This leaves LOOO for R
-* Since bigrams NL/LN and LH/HL are rare or never occur (while LT is common), L is assigned to middle finger inside OROO
-* To allow stride in MFU bigram ND, D must be either index finger or mouse button
-* M is to index finger inside ROOO (todo: why?)
-* D is assigned to inside mouse button (todo: why?)
-* F is assigned to remaining outside mouse button (todo: why?)
+* To allow stride in MFU bigram TH, H is assigned to outside middle finger outside OLOO
+* This leaves inside index finger LOOO for R
+* Since bigrams NL/LN and LH/HL are rare or never occur (while LT is common), L is assigned to inside middle finger OROO
+* To allow stride in MFU bigram ND, D must be either inside index finger or mouse button
+* M is to inside index finger ROOO since it is slightly faster than mouse button 
+* D is assigned to inside mouse button since it is slight faster than outside mouse button
+* F is assigned to remaining outside mouse button
 
 ```
 .-------------------.
