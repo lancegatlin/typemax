@@ -1,5 +1,5 @@
 # Training advice
-* Be sure to [fix the strap](https://github.com/lancegatlin/typemax/blob/master/strap_fix.md) with extra velcro points. Tiny velcro patch isn't nearly enough contact to hold strap in place.
+* Be sure to [fix the strap](https://github.com/lancegatlin/typemax/blob/master/strap_fix.md) with extra velcro points. The tiny velcro patch at the bottom isn't nearly enough contact to hold strap in place.
 * Use a ["spacer"](https://github.com/lancegatlin/typemax/blob/master/spacer.md) to fix finger alignment and make typing inside row keys and furthest pinky key strain-free.
 * Expect first week to be very frustrating. It feels impossible for awhile.
 * Say each letter aloud as you type it everytime you train.
