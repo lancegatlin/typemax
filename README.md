@@ -1,18 +1,18 @@
 ## Overview
 
-Typemax (TMX) is a configuration for single-hand chording keyboards that have a number of keys that is less than the number 
-of letters in the English alphabet. TMX attempts to maximize the words-per-minute (WPM) typing speed when typing with only 
-single character chords (i.e. without using multi-character chords (MCC)). Since there are less keys than letters, many 
-letters are assigned to single key chords (1KC) but other letters must be assigned to two key chords (2KC). Generally, 
-more frequently used (FRU) letters are assigned to 1KC and less frequently used (LRU) letters are assigned to 2KC. 
-However, this rule is weighed against a full set of optimizations as outlined below.
+Typemax (TMX) is a configuration for single-hand chording keyboards that have a number of keys that is less than the 
+number of letters in the English alphabet. TMX attempts to maximize the words-per-minute (WPM) typing speed when typing
+with only single character chords (i.e. without using multi-character chords (MCC)). Since there are less keys than 
+letters, many letters are assigned to single key chords (1KC) but other letters must be assigned to two key chords 
+(2KC). Generally, more frequently used (FRU) letters are assigned to 1KC and less frequently used (LRU) letters are 
+assigned to 2KC. However, this rule is weighed against a full set of optimizations as outlined below.
 
 Note: See http://norvig.com/mayzner.html for letter & bigram frequencies
 
 | Pros                   | Cons                    |
 | ---------------------- | -----------------------:|
 | High WPM               | Disables mouse          |
-| MCC not required       | Must train stutter      |
+| MCC not required       | Must train "stutter"    |
 | Natural type-ability   | Steeper training curve  |
 | Intuitive to learn     | Requires "spacer"       |
 
@@ -28,12 +28,13 @@ Note: Twiddler configuration requires firmware 15+
 ### Stride
 A bigram (e.g. TE, HA, IX) has "stride" if the keys pressed one after the other occur on different fingers. Stride
 allows finger(s) that just pressed a key to recover while the other finger(s) can begin travelling to the next
-key-press(es) while the first key press is still finishing. More stride means faster typing. TMX optimizes MFU bigrams
- to have the most stride.
+key-press(es) while the first key press is still finishing. More stride means faster typing. TMX main goal is enable 
+stride for as many MFU bigrams as possible.
 
 Example bigrams with stride:
 * TH: MOOO(t) to OLOO(h)
 * HE: OLOO(h) to OOLO(e)
+
 Example bigrams without stride:
 * MOOO to ROOO (index finger used in both chords)
 * MROO to ORMO (middle finger used in both chords)
