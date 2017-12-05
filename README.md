@@ -1,8 +1,3 @@
-# typemax
-Chording keyboard configurations
-
-Note: Twiddler configuration requires firmware 15+
-
 ## Overview
 
 Typemax (TMX) attempts to maximize the "type-ability" of hand-held chording keyboards that have a number of keys that
@@ -25,6 +20,8 @@ Note: See http://norvig.com/mayzner.html for letter & bigram frequencies
 To make typing the inside row reasonable, a "spacer" is required. The spacer is a solid block that widens the gap
 between the inside of the index finger knuckle and the side of the Twiddler. Expanding this gap gives the proper finger
 alignment for effortless typing of the inside row.
+
+Note: Twiddler configuration requires firmware 15+
 
 ## Layout design
 
