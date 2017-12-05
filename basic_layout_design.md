@@ -180,7 +180,7 @@ stutter optimized to take advantage of its common bigrams CH and CT).
 ▒▒▒▒▒ = unassigned
 ```
 
-Remaining consonants are assigned to 2KC in frequency order: PG(WY)BVKXJQZ with the exception of C which was
+Remaining consonants are assigned to 2KC in frequency order: PGWYBVKXJQZ with the exception of C which was
 intentionally to allow for stutter optimization. The 2KC assignments are the hardest to optimize and problem have the
 most room improvement.
 
