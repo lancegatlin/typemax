@@ -1,4 +1,11 @@
 ## Basic Layout Design
+MFU = most frequently used
+LFU = least frequently used
+1KC = 1 key press chord (single character chord)
+2KC = 2 key press chord (single character chord)
+bigram = a two character string
+ngram = a string of variable length
+
 
 ```
    C1    C2    C3
