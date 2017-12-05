@@ -181,8 +181,8 @@ stutter optimized to take advantage of its common bigrams CH and CT).
 ```
 
 Remaining consonants are assigned to 2KC in frequency order: PGWYBVKXJQZ with the exception of C which was
-intentionally skipped while assigning 1KC to allow for stutter optimization. The 2KC assignments are the hardest to optimize and problem have the
-most room improvement.
+intentionally skipped while assigning 1KC to allow for stutter optimization. The 2KC assignments are the hardest to optimize
+and probably have the most room improvement.
 
 * C is assigned to MLOO for stutter in common bigrams CH and CT
 * P is assigned to MOMO for stride in PL, stutter in PE and PA and weak travel in MP,OP,PO and PR
