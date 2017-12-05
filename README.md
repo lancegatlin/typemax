@@ -19,3 +19,10 @@ Layout: https://github.com/lancegatlin/typemax/blob/master/typemax.txt
 Note1: requires Twiddler firmware 15+
 
 Note2: Twiddler firmware 15 thumb shift does not captialize letters typed by mouse buttons 
+
+## Versioning
+
+TMX uses a three number version scheme major.minor.fix (similar to semantic versioning):
+* Major: incremented when a change occurs to the base layout. Users should expect that changes to the base layout will require significant retraining and will most likely result in downstream changes to other chords.
+* Minor: incremented when a change occurs to anything other than the base layout e.g. symbols, numbers, MCCs, etc that will require users to retrain.
+* Fix: incremented when a mistake in the config is corrected OR when new chords are added that don't impact existing chords. Users can safely upgrade to new fix versions without needing to retrain.
