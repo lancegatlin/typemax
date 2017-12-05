@@ -28,7 +28,7 @@ Orientation = face-away
 ### Stride
 A bigram (e.g. TE, HA, IX) has "stride" if the keys pressed one after the other occur on different fingers. Stride
 allows finger(s) that just pressed a key to recover while the other finger(s) can begin travelling to the next
-key-press(es) while the first key press is still finishing. More stride means faster typing. The main goal of TMX is to
+key press(es) while the first key press is still finishing. More stride means faster typing. The main goal of TMX is to
 allow for stride in as many MFU bigrams as possible.
 
 Example bigrams with stride:
