@@ -26,6 +26,7 @@ Note: Twiddler configuration requires firmware 15+
 
 ## Layout design
 
+```
 .-------------------.
 | f▒▒▒* s▒▒▒* d▒▒▒* |
 .-------------------.
@@ -36,6 +37,7 @@ Note: Twiddler configuration requires firmware 15+
 .-------------------.
 Orientation = face-away
 ▒▒▒▒* = mouse button
+```
 
 ### Stride
 A bigram (e.g. TE, HA, IX) has "stride" if the keys pressed one after the other occur on different fingers. Stride
@@ -87,6 +89,7 @@ To optimize stride for most bigrams, TMX first divides 1KC consonants and vowels
 there are six ring and pink finger 1KCs and only 5 vowels, every vowel is assigned to a 1KC. This ensures that any vowel
  to consonant or consonant to vowel bigram has stride (e.g. TE, ER, AN, OW, etc).
 
+```
 .-------------------.
 | CONST CONST CONST |
 .-------------------.
@@ -95,6 +98,7 @@ there are six ring and pink finger 1KCs and only 5 vowels, every vowel is assign
 | VOWEL VOWEL VOWEL |
 | VOWEL ▒▒▒▒▒ VOWEL |
 .-------------------.
+```
 
 ### Center-line keys
 Since the default hand position rests over center-line keys (MMMM), these are the quickest to press. Also, letters that
@@ -105,6 +109,7 @@ possible. Note: since is LFU D than ESNT it is not center-lined.
 * N is 2nd MFU consonant and is assigned to middle finger OMOO
 * S is 3rd MFU consonant and is assigned to middle mouse button
 
+```
 .-------------------.
 | CONST s▒▒▒▒ CONST |
 .-------------------.
@@ -113,12 +118,14 @@ possible. Note: since is LFU D than ESNT it is not center-lined.
 | VOWEL e▒▒▒▒ VOWEL |
 | VOWEL ▒▒▒▒▒ VOWEL |
 .-------------------.
+```
 
 ### Spacebar
 The most frequently pressed key is not a vowel or consonant but spacebar. Ideally, spacebar would be placed center-lined
 for the index finger but maximizing stride for vowels leaves a natural hole that can't be filled with any other letter.
 This hole is assigned to spacebar.
 
+```
 .-------------------.
 | CONST s▒▒▒▒ CONST |
 .-------------------.
@@ -127,6 +134,7 @@ This hole is assigned to spacebar.
 | VOWEL e▒▒▒▒ VOWEL |
 | VOWEL SPACE VOWEL |
 .-------------------.
+```
 
 ### Vowel section layout
 * Since U is the LFU vowel it is assigned the further stretch pinky finger key OOOL(u)
@@ -134,6 +142,7 @@ This hole is assigned to spacebar.
 * O is assigned to ring finger key OOLO(o) to give stride to common bigram OU
 * This leaves I assigned to ring finger key OORO(i) which coincidentally gives it stride in common bigrams AI/IA and EA
 
+```
 .-------------------.
 | CONST s▒▒▒▒ CONST |
 .-------------------.
@@ -142,6 +151,7 @@ This hole is assigned to spacebar.
 | i▒▒▒▒ e▒▒▒▒ o▒▒▒▒ |
 | a▒▒▒▒ ▒▒▒▒▒ u▒▒▒▒ |
 .-------------------.
+```
 
 ### 1KC Consonants
 TMX assigns consonants the renamining 1KC in order of their frequency RHLDUMF (with the exception of C which is
@@ -151,6 +161,7 @@ stutter optimized to take advantage of its common bigrams CH, CT, CR).
 * This leaves LOOO for R
 * 
 
+```
 .-------------------.
 | d▒▒▒▒ s▒▒▒▒ f▒▒▒▒ |
 .-------------------.
@@ -159,6 +170,7 @@ stutter optimized to take advantage of its common bigrams CH, CT, CR).
 | i▒▒▒▒ e▒▒▒▒ o▒▒▒▒ |
 | a▒▒▒▒ ▒▒▒▒▒ u▒▒▒▒ |
 .-------------------.
+```
 
 A secondary consideration is that each finger of the hand is ranked in order of its speed: index, middle, ring, pinky.
 MFU letters. The first 3 letters
