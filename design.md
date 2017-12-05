@@ -1,4 +1,4 @@
-## Layout design
+## Basic Layout Design
 
 ```
    C1    C2    C3
