@@ -181,6 +181,7 @@ stutter optimized to take advantage of its common bigrams CH, CT, CR).
 
 ### 2KC Consonants
 
+```
 |-------------------|-------------------.-------------------.
 | •••••             |       •••••       |             ••••• |
 | ▒▒▒▒▒ ▒▒▒▒▒ ▒▒▒▒▒ | v▒▒▒▒ ▒▒▒▒▒ c▒▒▒▒ | ▒▒▒▒▒ z▒▒▒▒ ▒▒▒▒▒ |
@@ -194,6 +195,7 @@ stutter optimized to take advantage of its common bigrams CH, CT, CR).
 |-------------------|-------------------|-------------------|
 ••••• = hold key
 ▒▒▒▒▒ = unassigned
+```
 
 Remaining consonants are assigned to 2KC in frequency order: PG(WY)BVKXJQZ with the exception of C which was
 intentionally to allow for stutter optimization. The 2KC assignments are the hardest to optimize and problem have the
