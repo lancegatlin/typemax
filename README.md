@@ -17,4 +17,5 @@ Note: See http://norvig.com/mayzner.html for letter & bigram frequencies
 | Intuitive to learn     | Can't use thumb shift key |
 
 Note1: requires Twiddler firmware 15+
+
 Note2: Twiddler firmware 15 thumb shift does not captialize letters typed by mouse buttons 
