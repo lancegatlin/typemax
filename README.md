@@ -7,7 +7,7 @@ letters, many letters are assigned to single key chords (1KC) but other letters 
 (2KC). Generally, more frequently used (MFU) letters are assigned to 1KC and less frequently used (LFU) letters are
 assigned to 2KC. However, this rule is weighed against a full set of optimizations as outlined in [basic layout design](https://github.com/lancegatlin/typemax/blob/master/basic_layout_design.md).
 
-Note: See http://norvig.com/mayzner.html for letter & bigram frequencies
+Layout: https://github.com/lancegatlin/typemax/blob/master/typemax.txt
 
 | Pros                   | Cons                      |
 | ---------------------- | -------------------------:|
