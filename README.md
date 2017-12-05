@@ -9,9 +9,12 @@ assigned to 2KC. However, this rule is weighed against a full set of optimizatio
 
 Note: See http://norvig.com/mayzner.html for letter & bigram frequencies
 
-| Pros                   | Cons                    |
-| ---------------------- | -----------------------:|
-| High WPM               | Disables mouse          |
-| Often faster than MCC  | Must train "stutter"    |
-| Natural type-ability   | Steeper training curve  |
-| Intuitive to learn     | Requires "spacer"       |
+| Pros                   | Cons                      |
+| ---------------------- | -------------------------:|
+| High WPM               | Disables mouse            |
+| Often faster than MCC  | Must train "stutter"      |
+| Natural type-ability   | Steeper training curve    |
+| Intuitive to learn     | Can't use thumb shift key |
+
+Note1: requires Twiddler firmware 15+
+Note2: Twiddler firmware 15 thumb shift does not captialize letters typed by mouse buttons 
