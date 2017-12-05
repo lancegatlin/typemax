@@ -3,7 +3,7 @@
 Typemax (TMX) is a configuration for single-hand chording keyboards (e.g. [Twiddler](http://twiddler.tekgear.com/)) that have
 a number of keys that is less than the number of letters in the English alphabet. TMX attempts to maximize typing speed when
 typing with only single character chords (i.e. without using multi-character chords (MCC)). Since there are less keys than
-letters, as many letters as possible are assigned to single key chords (1KC) but other letters must be assigned to two key
+letters, as many letters as possible are assigned to single key chords (1KC) but remaining letters must be assigned to two key
 chords (2KC). Generally, more frequently used (MFU) letters are assigned to 1KC and less frequently used (LFU) letters are
 assigned to 2KC. However, this rule is weighed against a full set of optimizations as outlined in [basic layout design](https://github.com/lancegatlin/typemax/blob/master/basic_layout_design.md).
 
