@@ -26,6 +26,17 @@ Note: Twiddler configuration requires firmware 15+
 
 ## Layout design
 
+.-------------------.
+| f▒▒▒* s▒▒▒* d▒▒▒* |
+.-------------------.
+| m▒▒▒▒ t▒▒▒▒ r▒▒▒▒ |
+| l▒▒▒▒ n▒▒▒▒ h▒▒▒▒ |
+| i▒▒▒▒ e▒▒▒▒ o▒▒▒▒ |
+| a▒▒▒▒ SPACE u▒▒▒▒ |
+.-------------------.
+Orientation = face-away
+▒▒▒▒* = mouse button
+
 ### Stride
 A bigram (e.g. TE, HA, IX) has "stride" if the keys pressed one after the other occur on different fingers. Stride
 allows finger(s) that just pressed a key to recover while the other finger(s) can begin travelling to the next
@@ -53,47 +64,101 @@ When stride is maximized for MFU letters, natural MFU ngrams are maximized witho
 ### Stutter
 A 1KC+2KC or 2KC+2KC bigram may share a common key between chords. This common key will cause the same finger to press
 the same key twice in quick succession. Note that for 2KC+2KC, this is optimally combined with stride in the other
-fingers. Stutter is less type-able than stride but faster than having the same finger travel to another key.
+fingers. Stutter is slower than stride but faster than having the same finger travel to another key.
 
 Examples with stutter:
 * CH: MLOO(c) to OROO(h)
 * QU: MOOL(q) to OOOL(u)
 
-Also, it has been my experience that stutter requires extra training focus. Natural reaction to stutter is to pause.
+Also, it has been my experience that stutter requires extra training focus. Natural reaction to stutter is to pause or
+"flutter" (press more than twice).
+
+### Mouse-button as keys
+Since the overriding concern of TMX is to maximize stride, the mouse-buttons are re-purposed as single key chords
+(effectively disabling the mouse). These three extra 1KC are then assigned to the index finger bringing the total keys
+pressed by the index finger to six. While at first this is confusing and seems like it might be overwhelming for the
+index finger, with enough training it becomes natural and very fast. Training data shows that the mouse button keys are
+significantly faster than even normal keys.
 
 
 ### Vowels and Consonant Divide
 To optimize stride for most bigrams, TMX first divides 1KC consonants and vowels between upper and lower fingers.
 1KC consonants are assigned to the index and middle fingers. Vowels are assigned to the ring and pinky fingers. Since
-there are 6 1KC and only 5 vowels, every vowel is assigned to a 1KC. This ensures that any vowel to consonant or
-consonant to vowel bigram has stride (e.g. TE, ER, AN, OW, etc).
+there are six ring and pink finger 1KCs and only 5 vowels, every vowel is assigned to a 1KC. This ensures that any vowel
+ to consonant or consonant to vowel bigram has stride (e.g. TE, ER, AN, OW, etc).
+
+.-------------------.
+| CONST CONST CONST |
+.-------------------.
+| CONST CONST CONST |
+| CONST CONST CONST |
+| VOWEL VOWEL VOWEL |
+| VOWEL ▒▒▒▒▒ VOWEL |
+.-------------------.
 
 ### Center-line keys
 Since the default hand position rests over center-line keys (MMMM), these are the quickest to press. Also, letters that
-more frequently end words (ESDNT and spacebar) are center-lined to reset the hand to default hand position whenever
-possible.
+more frequently end words (ESNT and spacebar) are center-lined to reset the hand to default hand position whenever
+possible. Note: since is LFU D than ESNT it is not center-lined.
+* E is MFU vowel and is assigned to the ring finger OOMO
+* T is MFU consonant and is assigned to index finger MOOO
+* N is 2nd MFU consonant and is assigned to middle finger OMOO
+* S is 3rd MFU consonant and is assigned to middle mouse button
+
+.-------------------.
+| CONST s▒▒▒▒ CONST |
+.-------------------.
+| CONST t▒▒▒▒ CONST |
+| CONST n▒▒▒▒ CONST |
+| VOWEL e▒▒▒▒ VOWEL |
+| VOWEL ▒▒▒▒▒ VOWEL |
+.-------------------.
 
 ### Spacebar
 The most frequently pressed key is not a vowel or consonant but spacebar. Ideally, spacebar would be placed center-lined
 for the index finger but maximizing stride for vowels leaves a natural hole that can't be filled with any other letter.
 This hole is assigned to spacebar.
 
+.-------------------.
+| CONST s▒▒▒▒ CONST |
+.-------------------.
+| CONST t▒▒▒▒ CONST |
+| CONST n▒▒▒▒ CONST |
+| VOWEL e▒▒▒▒ VOWEL |
+| VOWEL SPACE VOWEL |
+.-------------------.
+
 ### Vowel section layout
-* E and spacebar are center-lined with OOMO(e) and OOOM(spacebar)
 * Since U is the LFU vowel it is assigned the further stretch pinky finger key OOOL(u)
-* A is assigned to pinky finger key OOOR(a) since bigrams AU/UA are the LFU U bigrams
-* O is assigned to ring finger key OOLO(o) to give stride to MFU bigram OU
+* A is assigned to pinky finger key OOOR(a) since bigrams AU/UA are the LFU U*/*U bigrams
+* O is assigned to ring finger key OOLO(o) to give stride to common bigram OU
 * This leaves I assigned to ring finger key OORO(i) which coincidentally gives it stride in common bigrams AI/IA and EA
 
-### Mouse-button as keys
-Since the overriding concern of TMX is to maximize type-ability, the mouse-buttons are re-purposed as single key chords
-(effectively disabling the mouse). These three extra 1KC are then assigned to the index finger bringing the total keys
-pressed by the index finger to six. While at first this is confusing and seems like it might be overwhelming for the index finger,
+.-------------------.
+| CONST s▒▒▒▒ CONST |
+.-------------------.
+| CONST t▒▒▒▒ CONST |
+| CONST n▒▒▒▒ CONST |
+| i▒▒▒▒ e▒▒▒▒ o▒▒▒▒ |
+| a▒▒▒▒ ▒▒▒▒▒ u▒▒▒▒ |
+.-------------------.
 
-TMX assigns letters in order of their frequency [ETAOINSRHLDUMF][CPGWYBVKXJQZ] () with the exception of C which is optimized to take advantage of its common bigrams.
+### 1KC Consonants
+TMX assigns consonants the renamining 1KC in order of their frequency RHLDUMF (with the exception of C which is
+stutter optimized to take advantage of its common bigrams CH, CT, CR).
+* R and H are assigned to outside keys since outside is slightly faster than inside keys
+* To allow stride in MFU bigram TH, H is assigned to middle finger outside OLOO
+* This leaves LOOO for R
+* 
 
-
-
+.-------------------.
+| d▒▒▒▒ s▒▒▒▒ f▒▒▒▒ |
+.-------------------.
+| m▒▒▒▒ t▒▒▒▒ r▒▒▒▒ |
+| l▒▒▒▒ n▒▒▒▒ h▒▒▒▒ |
+| i▒▒▒▒ e▒▒▒▒ o▒▒▒▒ |
+| a▒▒▒▒ ▒▒▒▒▒ u▒▒▒▒ |
+.-------------------.
 
 A secondary consideration is that each finger of the hand is ranked in order of its speed: index, middle, ring, pinky.
 MFU letters. The first 3 letters
