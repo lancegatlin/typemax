@@ -141,7 +141,7 @@ without incurring stride penalties. This hole is assigned to spacebar.
 
 ### 1KC Consonants
 TMX assigns consonants the renamining 1KC in order of their frequency RHLDMF (with the exception of C which is
-stutter optimized to take advantage of its common bigrams CH, CT, CR).
+stutter optimized to take advantage of its common bigrams CH and CT).
 * R and H are assigned to outside keys since outside is slightly faster than inside keys
 * To allow stride in MFU bigram TH, H is assigned to middle finger outside OLOO
 * This leaves LOOO for R
