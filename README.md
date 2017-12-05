@@ -1,6 +1,6 @@
 ## Overview
 
-Typemax (TMX) is a configuration for single-hand chording keyboards that have a number of keys that is less than the
+Typemax (TMX) is a configuration for single-hand chording keyboards (e.g. [Twiddler](http://twiddler.tekgear.com/)) that have a number of keys that is less than the
 number of letters in the English alphabet. TMX attempts to maximize the words-per-minute (WPM) typing speed when typing
 with only single character chords (i.e. without using multi-character chords (MCC)). Since there are less keys than
 letters, many letters are assigned to single key chords (1KC) but other letters must be assigned to two key chords
