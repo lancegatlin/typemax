@@ -55,11 +55,11 @@ the same key twice in quick succession. Note that for 2KC+2KC, this is optimally
 fingers. Stutter is slower than stride but faster than having the same finger travel to another key.
 
 Examples with stutter:
-* CH: MLOO(c) to OROO(h)
-* QU: MOOL(q) to OOOL(u)
+* CH: MLOO(c) to OLOO(h) (middle finger presses outside key in both chords)
+* QU: MOOL(q) to OOOL(u) (pinky finger presses outside key in both chords)
 
 Also, it has been my experience that stutter requires extra training focus. Natural reaction to stutter is to pause or
-"flutter" (press more than twice).
+"flutter" (press key more than twice).
 
 ### Mouse-button as keys
 Since the overriding concern of TMX is to maximize stride, the mouse-buttons are re-purposed as single key chords
