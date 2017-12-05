@@ -4,4 +4,4 @@ solid block that widens the gap between the inside of the index finger knuckle a
 the gap between the index finger knuckle and the Twiddler realigns the fingers in such a way to allow strain-free
 typing of inside row and furthest pinky finger key. The size of the spacer will vary according to the user.
 
-[spacer pic](https://github.com/lancegatlin/typemax/blob/master/twiddler_spacer.png?raw=true)
+![spacer illustration](https://github.com/lancegatlin/typemax/blob/master/twiddler_spacer.png?raw=true)
