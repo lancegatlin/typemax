@@ -7,7 +7,7 @@
 * 2KC = 2 key press chord (single character chord)
 * bigram = a two character string
 * ngram = a string of variable length
-* Note: http://norvig.com/mayzner.html was used letter & bigram frequencies
+* Note: http://norvig.com/mayzner.html was used for letter & bigram frequencies
 
 ```
    C1    C2    C3
