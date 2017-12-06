@@ -7,7 +7,8 @@
 * 2KC = 2 key press chord (single character chord)
 * bigram = a two character string
 * ngram = a string of variable length
-* Note: http://norvig.com/mayzner.html was used for letter & bigram frequencies
+* Note: http://norvig.com/mayzner.html used for letter & bigram frequencies
+* Note: Twiddler is used here to facilitate discussion but concepts apply to any single-hand chording keyboard
 
 ```
    C1    C2    C3
