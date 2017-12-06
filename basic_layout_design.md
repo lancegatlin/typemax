@@ -63,7 +63,7 @@ Also, it has been my experience that stutter requires extra training focus. Natu
 "flutter" (press key more than twice).
 
 ### Mouse-button as keys
-Since the overriding concern of TMX is to maximize stride, the mouse-buttons are re-purposed as single key chords
+Since the overriding concern of TMX is to maximize stride, the Twiddler mouse-buttons are re-purposed as single key chords
 (effectively disabling the mouse). These three extra 1KC are then assigned to the index finger bringing the total keys
 pressed by the index finger to six. While at first this is confusing and seems like it might be overwhelming for the
 index finger, with enough training it becomes natural and very fast. Training data shows that the mouse button keys are
