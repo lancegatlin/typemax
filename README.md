@@ -8,9 +8,9 @@ typing layout. The design philosophy and explanation of all optimizations are ou
 
 | Pros                   | Cons                                                                     |
 | ---------------------- | ------------------------------------------------------------------------:|
-| High WPM without MCC   | Steeper initial training curve                                           |
-| Natural typing flow    | Twiddler: Re-purposes mouse buttons as keys                              |
-| Intuitive to learn     | Twiddler: Thumb modifier keys currently don't work on mouse buttons keys |
+| High WPM without MCC   | Twiddler: Re-purposes mouse buttons as keys                              |
+| Natural typing flow    | Twiddler: Thumb modifier keys currently don't work on mouse buttons keys |
+| Intuitive to learn     |                                                                          |
 | Can customize with MCC |                                                                          |
 
 Layout: https://github.com/lancegatlin/typemax/blob/master/typemax.txt
