@@ -6,18 +6,16 @@ speed by emphasizing efficent single character chord transitions ([stride](https
 TMX derived configurations can optionally use multi-character chords (MCC), but MCC are not required as part of the core
 typing layout. The design philosophy and explanation of all optimizations are outlined in [basic layout design](https://github.com/lancegatlin/typemax/blob/master/basic_layout_design.md).
 
-| Pros                   | Cons                      |
-| ---------------------- | -------------------------:|
-| High WPM               | Disables mouse            |
-| Often faster than MCC  | Must train "stutter"      |
-| Natural type-ability   | Steeper training curve    |
-| Intuitive to learn     | Can't use thumb shift key |
+| Pros                   | Cons                                                                     |
+| ---------------------- | ------------------------------------------------------------------------:|
+| High WPM without MCC   | Steeper initial training curve                                           |
+| Natural typing flow    | Twiddler: Re-purposes mouse buttons as keys                              |
+| Intuitive to learn     | Twiddler: Thumb modifier keys currently don't work on mouse buttons keys |
+| Can customize with MCC |                                                                          |
 
 Layout: https://github.com/lancegatlin/typemax/blob/master/typemax.txt
 
 Note1: requires Twiddler firmware 15+
-
-Note2: Twiddler firmware 15 thumb shift does not captialize letters typed by mouse buttons 
 
 ## Versioning
 
