@@ -17,6 +17,9 @@ Layout: https://github.com/lancegatlin/typemax/blob/master/typemax.txt
 
 Note1: requires Twiddler firmware 15+
 
+## Demo
+Demo of 60 WPM: https://youtu.be/jwFhZfTGgZc
+
 ## Versioning
 
 TMX uses a three number version scheme major.minor.fix (similar to semantic versioning):
