@@ -7,7 +7,8 @@
 * 2KC = 2 key press chord (single character chord)
 * bigram = a two character string
 * ngram = a string of variable length
-* Note: http://norvig.com/mayzner.html was used letter & bigram frequencies
+* Note: http://norvig.com/mayzner.html used for letter & bigram frequencies
+* Note: Twiddler is used here to facilitate discussion but concepts apply to any single-hand chording keyboard
 
 ```
    C1    C2    C3
@@ -62,7 +63,7 @@ Also, it has been my experience that stutter requires extra training focus. Natu
 "flutter" (press key more than twice).
 
 ### Mouse-button as keys
-Since the overriding concern of TMX is to maximize stride, the mouse-buttons are re-purposed as single key chords
+Since the overriding concern of TMX is to maximize stride, the Twiddler mouse-buttons are re-purposed as single key chords
 (effectively disabling the mouse). These three extra 1KC are then assigned to the index finger bringing the total keys
 pressed by the index finger to six. While at first this is confusing and seems like it might be overwhelming for the
 index finger, with enough training it becomes natural and very fast. Training data shows that the mouse button keys are
@@ -89,7 +90,7 @@ there are six ring and pink finger 1KCs and only 5 vowels, every vowel is assign
 ### Center-line keys
 Since the default hand position rests over center-line keys (MMMM), these are the quickest to press. Also, letters that
 more frequently end words (ESNT and spacebar) are center-lined to reset the hand to default hand position whenever
-possible. Note: since is LFU D than ESNT it is not center-lined.
+possible. Note: D frequently ends words but since it is overall less LFU than ESNT it is not center-lined.
 * E is MFU vowel and is assigned to the ring finger OOMO
 * T is MFU consonant and is assigned to index finger MOOO
 * N is 2nd MFU consonant and is assigned to middle finger OMOO
@@ -108,8 +109,8 @@ possible. Note: since is LFU D than ESNT it is not center-lined.
 
 ### Spacebar
 The most frequently pressed key is not a vowel or consonant but spacebar. Ideally, spacebar would be placed center-lined
-for the index finger but maximizing stride for vowels leaves a natural hole that can't be filled with any other letter.
-This hole is assigned to spacebar.
+for the index finger but maximizing stride for vowels leaves a natural hole that can't be filled with any other letter
+without incurring stride penalties. This hole is assigned to spacebar.
 
 ```
 .-------------------.
@@ -123,10 +124,10 @@ This hole is assigned to spacebar.
 ```
 
 ### Vowel section layout
-* Since U is the LFU vowel it is assigned the further stretch pinky finger key OOOL(u)
-* A is assigned to pinky finger key OOOR(a) since bigrams AU/UA are the LFU U*/*U bigrams
-* O is assigned to ring finger key OOLO(o) to give stride to common bigram OU
-* This leaves I assigned to ring finger key OORO(i) which coincidentally gives it stride in common bigrams AI/IA and EA
+* Since U is the LFU vowel, it is assigned to the outside pinky finger key OOOL(u)
+* A is assigned to inside pinky finger key OOOR(a) since bigrams AU/UA are the LFU U bigrams
+* O is assigned to outside ring finger key OOLO(o) to give stride to common bigram OU
+* This leaves I assigned to inside ring finger key OORO(i) which coincidentally gives it stride in common bigrams AI/IA and EA
 
 ```
 .-------------------.
@@ -141,15 +142,15 @@ This hole is assigned to spacebar.
 
 ### 1KC Consonants
 TMX assigns consonants the renamining 1KC in order of their frequency RHLDMF (with the exception of C which is
-stutter optimized to take advantage of its common bigrams CH, CT, CR).
+stutter optimized to take advantage of its common bigrams CH and CT).
 * R and H are assigned to outside keys since outside is slightly faster than inside keys
-* To allow stride in MFU bigram TH, H is assigned to middle finger outside OLOO
-* This leaves LOOO for R
-* Since bigrams NL/LN and LH/HL are rare or never occur (while LT is common), L is assigned to middle finger inside OROO
-* To allow stride in MFU bigram ND, D must be either index finger or mouse button
-* M is to index finger inside ROOO (todo: why?)
-* D is assigned to inside mouse button (todo: why?)
-* F is assigned to remaining outside mouse button (todo: why?)
+* To allow stride in MFU bigram TH, H is assigned to outside middle finger outside OLOO
+* This leaves inside index finger LOOO for R
+* Since bigrams NL/LN and LH/HL are rare or never occur (while LT is common), L is assigned to inside middle finger OROO
+* To allow stride in MFU bigram ND, D must be either inside index finger or mouse button
+* M is to inside index finger ROOO since it is slightly faster than mouse button 
+* D is assigned to inside mouse button since it is slight faster than outside mouse button
+* F is assigned to remaining outside mouse button
 
 ```
 .-------------------.
@@ -180,9 +181,9 @@ stutter optimized to take advantage of its common bigrams CH, CT, CR).
 ▒▒▒▒▒ = unassigned
 ```
 
-Remaining consonants are assigned to 2KC in frequency order: PG(WY)BVKXJQZ with the exception of C which was
-intentionally to allow for stutter optimization. The 2KC assignments are the hardest to optimize and problem have the
-most room improvement.
+Remaining consonants are assigned to 2KC in frequency order: PGWYBVKXJQZ with the exception of C which was
+intentionally skipped while assigning 1KC to allow for stutter optimization. The 2KC assignments are the hardest to optimize
+and probably have the most room improvement.
 
 * C is assigned to MLOO for stutter in common bigrams CH and CT
 * P is assigned to MOMO for stride in PL, stutter in PE and PA and weak travel in MP,OP,PO and PR
