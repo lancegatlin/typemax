@@ -8,6 +8,14 @@
 * Enable all letters in Tutor settings immediately. Don't let Tutor control when letters get introduced.
 * Don't train infrequent MCCs with Tutor. It will cause you to get stuck on a letter repeating it endlessly.
 * In Tutor settings, increase lesson length to ensure more 5 letter words show up. This also helps combat over generous WPM reporting by creating more "average" results each time.
+
+# Results after 60 hours of training
+![training stats](https://github.com/lancegatlin/typemax/blob/master/training/60hrs/Screen%20Shot%202017-12-21%20at%204.24.59%20PM.png?raw=true)
+![wpm](https://github.com/lancegatlin/typemax/blob/master/training/60hrs/Screen%20Shot%202017-12-21%20at%204.25.15%20PM.png?raw=true)
+![prof](https://github.com/lancegatlin/typemax/blob/master/training/60hrs/Screen%20Shot%202017-12-21%20at%204.25.28%20PM.png?raw=true)
+![key_freqs](https://github.com/lancegatlin/typemax/blob/master/training/60hrs/Screen%20Shot%202017-12-21%20at%204.25.57%20PM.png?raw=true)
+![practice_calendar](https://github.com/lancegatlin/typemax/blob/master/training/60hrs/Screen%20Shot%202017-12-21%20at%204.26.06%20PM.png)
+
 # Results after 40 hours of training
 ![training stats](https://github.com/lancegatlin/typemax/blob/master/training/40hrs/Screen%20Shot%202017-12-04%20at%208.30.46%20PM.png?raw=true)
 ![wpm](https://github.com/lancegatlin/typemax/blob/master/training/40hrs/Screen%20Shot%202017-12-04%20at%208.30.59%20PM.png?raw=true)
