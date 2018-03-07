@@ -19,6 +19,7 @@ Note1: requires Twiddler firmware 15+
 
 ## Demo
 Demo of 76 WPM: https://youtu.be/tFRTIdvZQ7U
+
 More demos and disussion of pros/cons of various typing tests: https://forum.tekgear.com/t/new-pr-typemax-76-wpm/492
 
 ## Versioning
