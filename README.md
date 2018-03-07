@@ -18,7 +18,7 @@ Layout: https://github.com/lancegatlin/typemax/blob/master/typemax.txt
 Note1: requires Twiddler firmware 15+
 
 ## Demo
-Demo of 60 WPM: https://youtu.be/jwFhZfTGgZc
+Demo of 76 WPM: https://youtu.be/tFRTIdvZQ7U
 
 ## Versioning
 
